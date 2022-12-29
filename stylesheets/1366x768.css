@@ -1,26 +1,26 @@
-@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
 
 body {
-  width: 1440px;
+  width: 1366px;;
   margin: 0 auto;
   background: #EAEAEA;
-  height: 3052px;
+  height: 3011px;
 }
 h1 {
   font-family: 'Gramatika';
   font-style: normal;
   font-weight: 400;
-  font-size: 200px;
-  line-height: 200px;
-  color: #33A4CB;
+  font-size: 180px;
+  line-height: 180px;
   text-align: center;
+  color: #33A4CB;
 }
 h2 {
   font-family: 'Gramatika';
   font-style: normal;
   font-weight: 400;
-  font-size: 110px;
-  line-height: 110px;
+  font-size: 100px;
+  line-height: 100px;
   font-feature-settings: 'ss03' on;
 }
 #item	{
@@ -63,36 +63,40 @@ h2 {
 }
 /* секция 1 */
 .rscreen1, .lscreen1 {
-  width: 277px;
-  height: 685px;
+  width: 263px;
+  height: 641px;
   background: #33A4CB;
 }
 .cscreen1 {
-  width: 791px;
-  height: 685px;
+  width: 749px;
+  height: 641px;
   background: #33A4CB;
 }
 .brightyYAR {
-  margin-left: 122px;
-  margin-top: 36px;
+  width: 563px;
+  background-size: cover;
+  margin-left: 115px;
+  margin-top: 37px;
   animation: brightyanimation1 3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 @keyframes brightyanimation1 {
   0% {margin-left: -1200px;}
-  100% {margin-left: 122px;}
+  100% {margin-left: 115px;}
 }
 @keyframes brightyanimation2 {
   0% {margin-left: 1200px;}
-  100% {margin-left: 91px;}
+  100% {margin-left: 80px;}
 }
 .brightyKO {
-  margin-left: 91px;
+  width: 563px;
+  background-size: cover;
+  margin-left: 80px;
   margin-top: 17px;
   animation: brightyanimation2 3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sunny1, .sunny2 {
   margin: 44px;
-  margin-left: 42px;
+  margin-left: 39px;
 }
 .sunny1 {
     animation: sunny-animation1 5s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite;
@@ -110,7 +114,7 @@ h2 {
 }
 /* секция 2 */
 .runscreen1 {
-  width: 1394px;
+  width: 1320px;
   height: 227px;
   background: #E8D41A;
   margin: 25px;
@@ -120,11 +124,11 @@ h2 {
   margin-left: 9px;
   color: #33A4CB;
   white-space: nowrap;
-  animation: stroke 10s linear infinite;
+  animation: stroke 9s linear infinite;
 }
 @keyframes stroke {
   0% {margin-left: 9px;}
-  100% {margin-left: -2265px;}
+  100% {margin-left: -2057px;}
 }
 /* секция 3 */
 .leftsflex {
@@ -132,7 +136,7 @@ h2 {
   gap: 25px;
 }
 .holo {
-  width: 482px;
+  width: 485px;
   height: 549px;
   background: #FBB404;
 }
@@ -169,7 +173,7 @@ h2 {
 }
 .vkusno {
   color: #D9D9D9;
-  margin-top: 10px;
+  margin-top: 28px;
   white-space: nowrap;
   animation: vkusnorunning 2.5s linear infinite;
 }
@@ -179,7 +183,7 @@ h2 {
 }
 @keyframes vkusnorunning {
   0% {margin-left: 0px;}
-  100% {margin-left: -413px;}
+  100% {margin-left: -375px;}
 }
 .kruto {
   color: #D9D9D9;
@@ -202,7 +206,7 @@ h2 {
   transition: 5s;
 }
 @keyframes krutorunning {
-  0% {margin-left: -343px;}
+  0% {margin-left: -310px;}
   100% {margin-left: 0px;}
 }
 .animation1 {
@@ -226,7 +230,7 @@ h2 {
 }
 .light1 {
   height: 413px;
-  margin-left: 17px;
+  margin-left: -43px;
   position: relative;
   animation: light1running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
@@ -245,7 +249,7 @@ h2 {
 }
 .round {
   height: 413px;
-  margin-left: 80px;
+  margin-left: 62px;
   position: relative;
   animation: roundrunning 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite;
 }
@@ -254,20 +258,20 @@ h2 {
   100% {transform: rotate(180deg);}
 }
 .slider1 {
-  width: 603px;
+   width: 528px;
   height: 413px;
-  overflow: hidden
+   overflow: hidden
 }
 .slider2 {
   margin-top: 25px;
-  width: 603px;
+   width: 528px;
   height: 506px;
-  overflow: hidden
+   overflow: hidden
 }
 .animationcurve {
   border-radius: 10px;
-  top: 50%;
-  left: 50%;
+   top: 50%;
+   left: 50%;
 }
 .s1 {
   background: #F16A28;
@@ -285,7 +289,7 @@ h2 {
   display: flex;
   position: relative;
   margin-top: -50px;
-  margin-left: 263px;
+  margin-left: 230px;
 }
 .bullet {
    width: 12px;
@@ -381,12 +385,12 @@ input[name="r"] {
 .navigation2 {
   display: flex;
   margin-top: -50px;
-  margin-left: 263px;
+  margin-left: 240px;
 }
 .navigation3 {
   display: flex;
   margin-top: -40px;
-  margin-left: 263px;
+  margin-left: 230px;
 }
 .bullet {
    width: 12px;
@@ -478,8 +482,8 @@ input[name="p"] {
   100% {top: 175px; left: 175px;}
 }
 .words {
-  width: 786px;
-  height: 276px;
+  width: 711px;
+  height: 289px;
   background: #E8D41A;
   background-image: url("../images/fast.svg");
   background-position: center;
@@ -493,22 +497,24 @@ input[name="p"] {
   100% {margin-top: 600px;}
 }
 .superanimation {
-  width: 786px;
-  height: 603px;
+  width: 711px;
+  height: 590px;
   background: #33A4CB;
   margin-top: 25px;
 }
-.superanimation1 {
+.superanimation1 { width: 711px;
+ height: 590px;
  animation: splash 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+ background-size: cover;
 }
 @keyframes splash {
   0% {
-      transform: scale(2.0);
-      -webkit-transform: scale(2.0);
+      transform: scale(2.3);
+      -webkit-transform: scale(2.3);
   }
   100% {
-      transform: scale(1.0);
-      -webkit-transform: scale(1.0);
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
   }
 }
 /* секция 5 */

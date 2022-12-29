@@ -1,154 +1,574 @@
 @media only screen and (min-width: 1920px) {
 
-
 body {
   width: 1920px;
   margin: 0 auto;
-  background: white;
-  height: 3870px;
+  background: #EAEAEA;
+  height: 3838px;
 }
-.section1, .section3, .section5 {
-  display: flex;
-  gap: 1.736vw;
-  margin: 1.736vw;
-}
-.rscreen1, .lscreen1, .cscreen1, .runscreen1, .holo, .bumerazhik, .vkusno, .animation1, .animation2, .animation3, .taxi, .words, .superanimation, .name, .school {
-  border-radius: 10px;
-  overflow: hidden;
-}
-.rscreen1, .lscreen1 {
-  width: 19.236vw;
-  height: 685px;
-  background: #33A4CB;
-  /* margin-left: 20px; */
-  /* margin-top: 20px;
-  margin-bottom: 20px; */
-  /* margin: 0 auto; */
-}
-.cscreen1 {
-  width: 54.931vw;
-  height: 685px;
-  background: #33A4CB;
-  /* margin-left: 20px; */
-  /* margin-top: 20px;
-  margin-bottom: 20px; */
-  /* margin: 0 auto; */
-}
-.runscreen1 {
-  width: 96.806vw;
-  /* height: 227px; */
-  background: #E8D41A;
-  margin: 1.736vw;
-}
-.leftsflex {
-  display: flex;
-  gap: 1.736vw;
-}
-.holo {
-  width: 33.472vw;
-  height: 549px;
-  background: #FBB404;
-}
-.bumerazhik {
-  width: 18.056vw;
-  height: 549px;
-  background: linear-gradient(180deg, #F16A28 0%, #9263D5 45.83%, #33A4CB 100%);
-}
-.vkusno {
-  width: 53.194vw;
-  height: 370px;
-  background: #33A4CB;
-  margin-top: 1.736vw;
-}
-.animation1 {
-  width: 41.875vw;
-  height: 413px;
-  background: #F16A28;
-}
-.animation2 {
-  width: 41.875vw;
-  height: 506px;
-  background: #9263D5;
-  margin-top: 1.736vw;
-}
-.section4 {
-  display: flex;
-  gap: 1.736vw;
-  padding-left: 1.736vw;
-  padding-right: 1.736vw;
-}
-.animation3 {
-  width: 40.486vw;
-  height: 580px;
-  background: #F16A28;
-}
-.taxi {
-  width: 40.486vw;
-  height: 299px;
-  background: #E8D41A;
-  margin-top: 1.736vw;
-}
-.words {
-  width: 54.444vw;
-  height: 276px;
-  background: #E8D41A;
-}
-.superanimation {
-  width: 54.444vw;
-  height: 603px;
-  background: #33A4CB;
-  margin-top: 1.736vw;
-}
-.name {
-  width: 73.819vw;
-  height: 171px;
-  background: #9263D5;
-}
-.mynameis {
-  margin: 45px;
+h1 {
   font-family: 'Gramatika';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 125%;
-
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-size: 250px;
+  line-height: 250px;
+  color: #33A4CB;
+  text-align: center;
+}
+h2 {
+  font-family: 'Gramatika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 140px;
   font-feature-settings: 'ss03' on;
+}
+#item	{
+	transition: opacity 0.4s ease;
+}
 
-  color: #FFFFFF;
+.container:hover #item {
+	opacity: 0.6;
+}
+
+.container:hover #item:hover {
+	opacity: 1;
+  animation: bounceOut 0.6s cubic-bezier(0.73, -0.01, 0.3, 1.01);
+}
+@keyframes bounceOut {
+  0% {
+    transform: scale(1);
   }
-.experangminis {
-  background-image: url('images/experangminis.svg');
-  width: 540px;
-  height: 171px;
+
+  25% {
+    transform: scale(0.97);
+  }
+
+  50% {
+    transform: scale(1.01);
+  }
+
+  75% {
+    transform: scale(1);
+  }
 }
-.school {
-  width: 312px;
-  height: 171px;
-  background: #E8D41A;
+.section1, .section3, .section5 {
+  display: flex;
+  gap: 25px;
+  margin: 25px;
 }
-.hselogo {
-  padding: 45px;
+.rscreen1, .lscreen1, .cscreen1, .runscreen1, .holo, .bumerazhik, .vkusnokrutoveselo, .animation1, .animation2, .animation3, .taxi, .words, .superanimation, .hello, .school {
+  border-radius: 10px;
+  overflow: hidden;
 }
-.brighty {
-  margin: 38px;
-  margin-left: 90px;
+/* секция 1 */
+.rscreen1, .lscreen1 {
+  width: 370px;
+  height: 870px;
+  background: #33A4CB;
+}
+.cscreen1 {
+  width: 1079px;
+  height: 870px;
+  background: #33A4CB;
+}
+.brightyYAR {
+  width: 780px;
+  background-size: cover;
+  margin-left: 150px;
+  margin-top: 36px;
+  animation: brightyanimation1 3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@keyframes brightyanimation1 {
+  0% {margin-left: -1200px;}
+  100% {margin-left: 150px;}
+}
+@keyframes brightyanimation2 {
+  0% {margin-left: 1200px;}
+  100% {margin-left: 132px;}
+}
+.brightyKO {
+  width: 780px;
+  background-size: cover;
+  margin-left: 132px;
+  margin-top: 17px;
+  animation: brightyanimation2 3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sunny1, .sunny2 {
   margin: 44px;
   margin-left: 42px;
+  width: 274px;
+  background-size: cover;
 }
-.superanimation1 {
-  margin: 1px;
-  margin-left: 0px;
+.sunny1 {
+    animation: sunny-animation1 5s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite;
+}
+@keyframes sunny-animation1 {
+  0% {margin-top: 1000px;}
+  100% {margin-top: -900px;}
+}
+.sunny2 {
+    animation: sunny-animation2 5s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite;
+}
+@keyframes sunny-animation2 {
+  0% {margin-top: -1000px;}
+  100% {margin-top: 950px;}
+}
+/* секция 2 */
+.runscreen1 {
+  width: 1870px;
+  height: 288px;
+  background: #E8D41A;
+  margin: 25px;
 }
 .happy {
-  margin: 73px;
-  margin-left: 208px;
+  margin: 76px;
+  margin-left: 9px;
+  color: #33A4CB;
+  white-space: nowrap;
+  animation: stroke 10s linear infinite;
+}
+@keyframes stroke {
+  0% {margin-left: 9px;}
+  100% {margin-left: -2265px;}
+}
+/* секция 3 */
+.leftsflex {
+  display: flex;
+  gap: 25px;
+}
+.holo {
+  width: 649px;
+  height: 697px;
+  background: #FBB404;
+}
+.holo1 {
+  width: 649px;
+  height: 697px;
+  background-size: cover;
+  animation: splash 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+}
+.bumerazhik {
+  width: 348px;
+  height: 697px;
+  background: linear-gradient(180deg, #F16A28, #9263D5, #33A4CB);
+  background-size: 1000% 1000%;
+  animation: gradient 50s linear infinite;
+}
+@keyframes gradient {
+  0% {background-position: 0 50%;}
+  55% {background-position: 200% 500%;}
+  100% {background-position: 0 50%;}
 }
 .bumerazhik1 {
+  width: 294px;
+  height: 334px;
+  background-size: cover;
   margin: 98px;
   margin-left: 27px;
+  animation: bumerazhik1 5s infinite;
+}
+@keyframes bumerazhik1 {
+  0% {transform: rotate(3deg);}
+  50% {transform: rotate(-3deg);}
+  100% {transform: rotate(3deg);}
+}
+.vkusnokrutoveselo {
+  width: 1025px;
+  height: 472px;
+  background: #33A4CB;
+  margin-top: 25px;
+}
+.vkusno {
+  color: #D9D9D9;
+  margin-top: 10px;
+  white-space: nowrap;
+  animation: vkusnorunning 2.5s linear infinite;
+}
+.vkusno:hover {
+  color: #E8D41A;
+  transition: 5s;
+}
+@keyframes vkusnorunning {
+  0% {margin-left: 0px;}
+  100% {margin-left: -526px;}
+}
+.kruto {
+  color: #D9D9D9;
+  margin-top: 10px;
+  white-space: nowrap;
+  animation: krutorunning 2.5s linear infinite;
+}
+.kruto:hover {
+  color: #E8D41A;
+  transition: 5s;
+}
+.veselo {
+  color: #D9D9D9;
+  margin-top: 10px;
+  white-space: nowrap;
+  animation: vkusnorunning 2.5s linear infinite;
+}
+.veselo:hover {
+  color: #E8D41A;
+  transition: 5s;
+}
+@keyframes krutorunning {
+  0% {margin-left: -434px;}
+  100% {margin-left: 0px;}
+}
+.animation1 {
+  width: 603px;
+  height: 413px;
+  background: #F16A28;
+}
+.animation2 {
+  width: 603px;
+  height: 506px;
+  background: #9263D5;
+  margin-top: 25px;
+}
+.triangles {
+  height: 524px;
+  animation: trianglesrunning 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
+}
+@keyframes trianglesrunning {
+  0% {margin-left: -637px;}
+  100% {margin-left: 0px;}
+}
+.light1 {
+  width: 410px;
+  height: 524px;
+  background-size: cover;
+  position: relative;
+  animation: light1running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
+}
+@keyframes light1running {
+  0% {bottom: -456px;}
+  100% {bottom: 0px;}
+}
+.light2 {
+  width: 410px;
+  height: 524px;
+  margin-left: -5px;
+  background-size: cover;
+  position: relative;
+  animation: light2running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
+}
+@keyframes light2running {
+  0% {top: -456px;}
+  100% {top: 0px;}
+}
+.round {
+  width: 820px;
+  height: 524px;
+  background-size: cover;
+  position: relative;
+  animation: roundrunning 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite;
+}
+@keyframes roundrunning {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(180deg);}
+}
+.slider1 {
+  width: 820px;
+  height: 524px;
+  overflow: hidden
+}
+.slider2 {
+  margin-top: 25px;
+  width: 820px;
+  height: 646px;
+  overflow: hidden
+}
+.animationcurve {
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+}
+.s1 {
+  background: #F16A28;
+  overflow: hidden;
+}
+.s2 {
+  background: #E8D41A;
+  overflow: hidden;
+}
+.s3 {
+  background: #FBB404;
+  overflow: hidden;
+}
+.navigation1 {
+  display: flex;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 357px;
+}
+.bullet {
+  width: 22px;
+  height: 22px;
+  border-radius:100%;
+  margin: 6px;
+  cursor: pointer;
+  background-color: #F0FFFF;
+  opacity: .5;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+.bullet:hover {
+   opacity: 1;
+   transform:scale(1.1);
+}
+input[name="r"] {
+   position: absolute;
+   visibility: hidden;
+}
+.slides {
+   width: 400%;
+   height: 100%;
+   display: flex;
+   overflow: hidden;
+}
+.slide {
+   width: 25%;
+   transition: all 0.6s cubic-bezier(0.86,-0.01, 0.05, 0.99);
+}
+.img {
+   width: 100%;
+   height: 100%;
+}
+#r1:checked ~ .s1 {
+   margin-left: 0;
+}
+#r2:checked ~ .s1 {
+   margin-left: -25%;
+}
+#r3:checked ~ .s1 {
+   margin-left: -50%;
+}
+.quadratictriangles {
+  width: 820px;
+  height: 646px;
+  background-size: cover
+  animation: quadraticrunning 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
+}
+@keyframes quadraticrunning {
+  0% {transform: rotate(180deg);}
+  100% {transform: rotate(0deg);}
+}
+.light3 {
+  height: 291px;
+  margin-top: 15px;
+  position: relative;
+  animation: light3running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
+}
+@keyframes light3running {
+  0% {right: -856px;}
+  100% {right: -95px;}
+}
+.light4 {
+  height: 291px;
+  margin-top: 25px;
+  position: relative;
+  animation: light4running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
+}
+@keyframes light4running {
+  0% {left: -656px;}
+  100% {left: 0px;}
+}
+.swoosh {
+  margin-top: -7px;
+  position: relative;
+  animation: swoosh 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
+}
+@keyframes swoosh {
+  0% {top: -694px; left: 525px;}
+  100% {top: -239px; left: 215px;}
+}
+.k1 {
+  background: #9263D5;
+  overflow: hidden;
+}
+.k2 {
+  background: #E8D41A;
+  overflow: hidden;
+}
+.k3 {
+  background: #33A4CB;
+  overflow: hidden;
+}
+.navigation2 {
+  display: flex;
+  margin-top: -50px;
+  margin-left: 367px;
+}
+.navigation3 {
+  display: flex;
+  margin-top: -40px;
+  margin-left: 357px;
+}
+.bullet {
+   width: 16px;
+   height: 16px;
+   border-radius:100%;
+   margin: 6px;
+   cursor: pointer;
+   background-color: #F0FFFF;
+   opacity: .5;
+   border-radius: 10px;
+   transition: all 0.4s ease;
+}
+.bullet:hover {
+   opacity: 1;
+   transform:scale(1.1);
+}
+input[name="p"] {
+   position: absolute;
+   visibility: hidden;
+}
+.slides {
+   width: 400%;
+   height: 100%;
+   display: flex;
+   overflow: hidden;
+}
+.slide {
+   width: 25%;
+   transition: all 0.6s ease;
+}
+#p1:checked ~ .k1 {
+   margin-left: 0;
+}
+#p2:checked ~ .k1 {
+   margin-left: -25%;
+}
+#p3:checked ~ .k1 {
+   margin-left: -50%;
+}
+.section4 {
+  display: flex;
+  gap: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* секция 4 */
+.animation3 {
+  width: 781px;
+  height: 732px;
+  background: #F16A28;
+}
+.squares {
+  transform: scale(1.34);
+  position: relative;
+  top: 154px;
+  left: 197px;
+  animation: squaresanimation 10s cubic-bezier(0.73, -0.01, 0.3, 1.01) infinite alternate;
+}
+@keyframes squaresanimation {
+  0% {margin-left: 0px;}
+  25% {margin-top: -752px; margin-left: 0;}
+  50% {margin-top: -752px; margin-left: -390px;}
+  75% {margin-top: 0; margin-left: -390px;}
+  100% {margin-top: 0; margin-left: 0px;}
+}
+.taxi {
+  width: 780px;
+  height: 380px;
+  background: #E8D41A;
+  margin-top: 25px;
+}
+.taxi1 {
+  position: relative;
+  width: 1200px;
+  background-size: cover;
+  margin-left: -175px;
+  margin-top: 20px;
+  bottom: 25px;
+  animation: taxianimation1 4s cubic-bezier(0.73, -0.01, 0.3, 1.01) infinite alternate;
+}
+@keyframes taxianimation1 {
+  0% {bottom: 215px;}
+  33% {bottom: -10px; left: 0;}
+  66% {bottom: 0; left: 175px;}
+  100% {bottom: 215px; left: 175px;}
+}
+.taxi2 {
+  position: relative;
+  width: 1200px;
+  background-size: cover;
+  animation: taxianimation2 4s cubic-bezier(0.73, -0.01, 0.3, 1.01) infinite alternate;
+}
+@keyframes taxianimation2 {
+  0% {top: 215px;}
+  33% {top: 0; left: 0;}
+  66% {top: 0; left: 175px;}
+  100% {top: 215px; left: 175px;}
+}
+.words {
+  width: 1064px;
+  height: 350px;
+  background: #E8D41A;
+  background-image: url("../images/fast0.svg");
+  background-position: center;
+}
+.wordsrunning {
+ animation: wordsup 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes wordsup {
+  0% {margin-top: 600px;}
+  50% {margin-top: 35px;}
+  100% {margin-top: 600px;}
+}
+.superanimation {
+  width: 1064px;
+  height: 770px;
+  background: #33A4CB;
+  margin-top: 25px;
+}
+.superanimation1 {
+  width: 1064px;
+  height: 770px;
+  animation: splash 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+  background-size: cover;
+}
+@keyframes splash {
+  0% {
+      transform: scale(2.3);
+      -webkit-transform: scale(2.3);
+  }
+  100% {
+      transform: scale(1.3);
+      -webkit-transform: scale(1.3);
+  }
+}
+/* секция 5 */
+.hi {
+margin: 70px;
+font-family: 'Gramatika';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+font-feature-settings: 'ss03' on;
+
+color: #FFFFFF;
+}
+.hello {
+  width: 1423px;
+  height: 217px;
+  background-image: url('../images/footerbig.svg');
+}
+.school {
+  width: 427px;
+  height: 217px;
+  background: #E8D41A;
+}
+.hselogo {
+  padding: 57px;
+  width: 310px;
+  background-size: cover;
 }
 }

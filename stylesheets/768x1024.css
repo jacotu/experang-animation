@@ -1,26 +1,25 @@
-@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 
 body {
-  width: 1440px;
+  width: 768px;
   margin: 0 auto;
   background: #EAEAEA;
-  height: 3052px;
+  height: 1681px;
 }
 h1 {
   font-family: 'Gramatika';
   font-style: normal;
   font-weight: 400;
-  font-size: 200px;
-  line-height: 200px;
+  font-size: 100px;
+  line-height: 100px;
   color: #33A4CB;
-  text-align: center;
 }
 h2 {
   font-family: 'Gramatika';
   font-style: normal;
   font-weight: 400;
-  font-size: 110px;
-  line-height: 110px;
+  font-size: 55px;
+  line-height: 55px;
   font-feature-settings: 'ss03' on;
 }
 #item	{
@@ -54,8 +53,8 @@ h2 {
 }
 .section1, .section3, .section5 {
   display: flex;
-  gap: 25px;
-  margin: 25px;
+  gap: 12px;
+  margin: 12px;
 }
 .rscreen1, .lscreen1, .cscreen1, .runscreen1, .holo, .bumerazhik, .vkusnokrutoveselo, .animation1, .animation2, .animation3, .taxi, .words, .superanimation, .hello, .school {
   border-radius: 10px;
@@ -63,60 +62,66 @@ h2 {
 }
 /* секция 1 */
 .rscreen1, .lscreen1 {
-  width: 277px;
-  height: 685px;
+  width: 148px;
+  height: 353px;
   background: #33A4CB;
 }
 .cscreen1 {
-  width: 791px;
-  height: 685px;
+  width: 423px;
+  height: 353px;
   background: #33A4CB;
 }
 .brightyYAR {
-  margin-left: 122px;
-  margin-top: 36px;
+  width: 293px;
+  background-size: cover;
+  margin-left: 80px;
+  margin-top: 23px;
   animation: brightyanimation1 3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 @keyframes brightyanimation1 {
   0% {margin-left: -1200px;}
-  100% {margin-left: 122px;}
+  100% {margin-left: 80px;}
 }
 @keyframes brightyanimation2 {
   0% {margin-left: 1200px;}
-  100% {margin-left: 91px;}
+  100% {margin-left: 75px;}
 }
 .brightyKO {
-  margin-left: 91px;
-  margin-top: 17px;
+  width: 293px;
+  background-size: cover;
+  margin-left: 75px;
+  margin-top: 22px;
   animation: brightyanimation2 3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sunny1, .sunny2 {
   margin: 44px;
-  margin-left: 42px;
+  margin-left: 25px;
+  width: 100px;
+  background-size: cover;
 }
 .sunny1 {
     animation: sunny-animation1 5s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite;
 }
 @keyframes sunny-animation1 {
-  0% {margin-top: 900px;}
-  100% {margin-top: -600px;}
+  0% {margin-top: 400px;}
+  100% {margin-top: -450px;}
 }
 .sunny2 {
     animation: sunny-animation2 5s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite;
 }
 @keyframes sunny-animation2 {
-  0% {margin-top: -900px;}
-  100% {margin-top: 650px;}
+  0% {margin-top: -400px;}
+  100% {margin-top: 450px;}
 }
 /* секция 2 */
 .runscreen1 {
-  width: 1394px;
-  height: 227px;
+  width: 743px;
+  height: 125px;
   background: #E8D41A;
-  margin: 25px;
+  margin: 12px;
 }
 .happy {
-  margin: 63px;
+  margin: 43px;
   margin-left: 9px;
   color: #33A4CB;
   white-space: nowrap;
@@ -129,19 +134,22 @@ h2 {
 /* секция 3 */
 .leftsflex {
   display: flex;
-  gap: 25px;
+  gap: 12px;
 }
 .holo {
-  width: 482px;
-  height: 549px;
+  width: 273px;
+  height: 302px;
   background: #FBB404;
 }
 .holo1 {
+  width: 273px;
+  height: 302px;
+  background-size: cover;
   animation: splash 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
 }
 .bumerazhik {
-  width: 260px;
-  height: 549px;
+  width: 146px;
+  height: 302px;
   background: linear-gradient(180deg, #F16A28, #9263D5, #33A4CB);
   background-size: 1000% 1000%;
   animation: gradient 50s linear infinite;
@@ -152,8 +160,11 @@ h2 {
   100% {background-position: 0 50%;}
 }
 .bumerazhik1 {
-  margin: 98px;
-  margin-left: 27px;
+  width: 122px;
+  height: 205px;
+  background-size: cover;
+  margin: 29px;
+  margin-left: 13px;
   animation: bumerazhik1 5s infinite;
 }
 @keyframes bumerazhik1 {
@@ -162,15 +173,16 @@ h2 {
   100% {transform: rotate(3deg);}
 }
 .vkusnokrutoveselo {
-  width: 766px;
-  height: 370px;
+  width: 431px;
+  height: 203px;
   background: #33A4CB;
-  margin-top: 25px;
+  margin-top: 12px;
 }
 .vkusno {
+  position: relative;
   color: #D9D9D9;
-  margin-top: 10px;
   white-space: nowrap;
+  margin-top: 22px;
   animation: vkusnorunning 2.5s linear infinite;
 }
 .vkusno:hover {
@@ -179,54 +191,58 @@ h2 {
 }
 @keyframes vkusnorunning {
   0% {margin-left: 0px;}
-  100% {margin-left: -413px;}
+  100% {margin-left: -208px;}
 }
 .kruto {
+  position: relative;
   color: #D9D9D9;
-  margin-top: 10px;
+  bottom: 20px;
   white-space: nowrap;
+  margin-top: 22px;
   animation: krutorunning 2.5s linear infinite;
 }
 .kruto:hover {
   color: #E8D41A;
   transition: 5s;
 }
+@keyframes krutorunning {
+  0% {margin-left: -171px;}
+  100% {margin-left: 0px;}
+}
 .veselo {
   color: #D9D9D9;
-  margin-top: 10px;
+  position: relative;
+  bottom: 40px;
   white-space: nowrap;
+  margin-top: 22px;
   animation: vkusnorunning 2.5s linear infinite;
 }
 .veselo:hover {
   color: #E8D41A;
   transition: 5s;
 }
-@keyframes krutorunning {
-  0% {margin-left: -343px;}
-  100% {margin-left: 0px;}
-}
 .animation1 {
-  width: 603px;
+  width: 402px;
   height: 413px;
   background: #F16A28;
 }
 .animation2 {
-  width: 603px;
-  height: 506px;
+  width: 402px;
+  height: 384px;
   background: #9263D5;
-  margin-top: 25px;
+  margin-top: 12px;
 }
 .triangles {
-  height: 413px;
+  height: 227px;
   animation: trianglesrunning 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
 @keyframes trianglesrunning {
-  0% {margin-left: -637px;}
+  0% {margin-left: -337px;}
   100% {margin-left: 0px;}
 }
 .light1 {
-  height: 413px;
-  margin-left: 17px;
+  height: 227px;
+  margin-left: -15px;
   position: relative;
   animation: light1running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
@@ -235,7 +251,7 @@ h2 {
   100% {bottom: 0px;}
 }
 .light2 {
-  height: 413px;
+  height: 227px;
   position: relative;
   animation: light2running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
@@ -244,8 +260,8 @@ h2 {
   100% {top: 0px;}
 }
 .round {
-  height: 413px;
-  margin-left: 80px;
+  height: 227px;
+  margin-left: 36px;
   position: relative;
   animation: roundrunning 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite;
 }
@@ -254,20 +270,20 @@ h2 {
   100% {transform: rotate(180deg);}
 }
 .slider1 {
-  width: 603px;
-  height: 413px;
-  overflow: hidden
+   width: 302px;
+  height: 227px;
+   overflow: hidden
 }
 .slider2 {
-  margin-top: 25px;
-  width: 603px;
-  height: 506px;
-  overflow: hidden
+  margin-top: 12px;
+   width: 302px;
+  height: 280px;
+   overflow: hidden
 }
 .animationcurve {
   border-radius: 10px;
-  top: 50%;
-  left: 50%;
+   top: 50%;
+   left: 50%;
 }
 .s1 {
   background: #F16A28;
@@ -285,7 +301,7 @@ h2 {
   display: flex;
   position: relative;
   margin-top: -50px;
-  margin-left: 263px;
+  margin-left: 115px;
 }
 .bullet {
    width: 12px;
@@ -330,7 +346,7 @@ input[name="r"] {
    margin-left: -50%;
 }
 .quadratictriangles {
-  height: 506px;
+  height: 280px;
   animation: quadraticrunning 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
 @keyframes quadraticrunning {
@@ -338,33 +354,36 @@ input[name="r"] {
   100% {transform: rotate(0deg);}
 }
 .light3 {
-  height: 224px;
-  margin-top: 15px;
+  transform: scale(0.6);
+  height: 203px;
+  bottom: 45px;
   position: relative;
   animation: light3running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
 @keyframes light3running {
   0% {right: -656px;}
-  100% {right: -45px;}
+  100% {right: 45px;}
 }
 .light4 {
-  height: 224px;
-  margin-top: 25px;
+  transform: scale(0.6);
+  height: 203px;
+  bottom: 148px;
   position: relative;
   animation: light4running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
 @keyframes light4running {
   0% {left: -656px;}
-  100% {left: 0px;}
+  100% {left: -90px;}
 }
 .swoosh {
-  margin-top: -146px;
+  transform: scale(0.5);
+  margin-top: -370px;
   position: relative;
   animation: swoosh 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
 @keyframes swoosh {
   0% {top: -534px; left: 525px;}
-  100% {top: -139px; left: 25px;}
+  100% {top: 69px; left: -75px;}
 }
 .k1 {
   background: #9263D5;
@@ -381,27 +400,12 @@ input[name="r"] {
 .navigation2 {
   display: flex;
   margin-top: -50px;
-  margin-left: 263px;
+  margin-left: 118px;
 }
 .navigation3 {
   display: flex;
-  margin-top: -40px;
-  margin-left: 263px;
-}
-.bullet {
-   width: 12px;
-   height: 12px;
-   border-radius:100%;
-   margin: 6px;
-   cursor: pointer;
-   background-color: #F0FFFF;
-   opacity: .5;
-   border-radius: 10px;
-   transition: all 0.4s ease;
-}
-.bullet:hover {
-   opacity: 1;
-   transform:scale(1.1);
+  margin-top: -218px;
+  margin-left: 115px;
 }
 input[name="p"] {
    position: absolute;
@@ -428,63 +432,71 @@ input[name="p"] {
 }
 .section4 {
   display: flex;
-  gap: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
+  gap: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 /* секция 4 */
 .animation3 {
-  width: 583px;
-  height: 580px;
+  width: 328px;
+  height: 335px;
   background: #F16A28;
 }
 .squares {
+  transform: scale(0.6);
+  position: relative;
+  right: 237px;
+  bottom: 237px;
   animation: squaresanimation 10s cubic-bezier(0.73, -0.01, 0.3, 1.01) infinite alternate;
 }
 @keyframes squaresanimation {
   0% {margin-left: 0px;}
-  25% {margin-top: -582px; margin-left: 0;}
-  50% {margin-top: -582px; margin-left: -584px;}
-  75% {margin-top: 0; margin-left: -584px;}
+  25% {margin-top: -362px; margin-left: 0;}
+  50% {margin-top: -362px; margin-left: -364px;}
+  75% {margin-top: 0; margin-left: -364px;}
   100% {margin-top: 0; margin-left: 0px;}
 }
 .taxi {
-  width: 583px;
-  height: 299px;
+  width: 328px;
+  height: 172px;
   background: #E8D41A;
-  margin-top: 25px;
+  margin-top: 12px;
 }
 .taxi1 {
+  transform: scale(0.8);
   position: relative;
-  margin-left: -145px;
-  margin-top: 20px;
-  bottom: 25px;
+  margin-left: -115px;
+  bottom: 35px;
   animation: taxianimation1 4s cubic-bezier(0.73, -0.01, 0.3, 1.01) infinite alternate;
 }
 @keyframes taxianimation1 {
-  0% {bottom: 175px;}
-  33% {bottom: -10px; left: 0;}
-  66% {bottom: 0; left: 175px;}
-  100% {bottom: 175px; left: 175px;}
+  0% {bottom: 160px;}
+  33% {bottom: 13px; left: 0;}
+  66% {bottom: 18px; left: 100px;}
+  100% {bottom: 160px; left: 100px;}
 }
 .taxi2 {
+  transform: scale(0.8);
   position: relative;
+  top: 40px;
   animation: taxianimation2 4s cubic-bezier(0.73, -0.01, 0.3, 1.01) infinite alternate;
 }
 @keyframes taxianimation2 {
-  0% {top: 175px;}
-  33% {top: 0; left: 0;}
-  66% {top: 0; left: 175px;}
-  100% {top: 175px; left: 175px;}
+  0% {top: 100px;}
+  33% {top: -50px; left: 0;}
+  66% {top: -48px; left: 100px;}
+  100% {top: 100px; left: 100px;}
 }
 .words {
-  width: 786px;
-  height: 276px;
+  width: 406px;
+  height: 159px;
   background: #E8D41A;
-  background-image: url("../images/fast.svg");
+  background-image: url("../images/fast2.svg");
   background-position: center;
 }
 .wordsrunning {
+ margin-left: 18px;
+ margin-top: 35px;
  animation: wordsup 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 @keyframes wordsup {
@@ -493,32 +505,35 @@ input[name="p"] {
   100% {margin-top: 600px;}
 }
 .superanimation {
-  width: 786px;
-  height: 603px;
+  width: 406px;
+  height: 346px;
   background: #33A4CB;
-  margin-top: 25px;
+  margin-top: 12px;
 }
 .superanimation1 {
+ width: 406px;
+ height: 346px;
  animation: splash 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+ background-size: cover;
 }
 @keyframes splash {
   0% {
-      transform: scale(2.0);
-      -webkit-transform: scale(2.0);
+      transform: scale(2.3);
+      -webkit-transform: scale(2.3);
   }
   100% {
-      transform: scale(1.0);
-      -webkit-transform: scale(1.0);
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
   }
 }
 /* секция 5 */
 .hi {
-margin: 45px;
+margin: 20px;
 font-family: 'Gramatika';
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
-line-height: 125%;
+font-size: 16px;
+line-height: 25px;
 
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -527,16 +542,18 @@ font-feature-settings: 'ss03' on;
 color: #FFFFFF;
 }
 .hello {
-  width: 1063px;
-  height: 171px;
-  background-image: url('../images/footer.svg');
+  width: 566px;
+  height: 94px;
+  background-image: url('../images/footermini-1.svg');
 }
 .school {
-  width: 312px;
-  height: 171px;
+  width: 166px;
+  height: 94px;
   background: #E8D41A;
 }
 .hselogo {
-  padding: 45px;
+  padding: 27px;
+  width: 120px;
+  background-size: cover;
 }
 }
