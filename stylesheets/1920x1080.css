@@ -543,7 +543,10 @@ input[name="p"] {
 }
 /* секция 5 */
 .hi {
-margin: 70px;
+margin-left: 35px;
+margin-top: 45px;
+}
+.hi a {
 font-family: 'Gramatika';
 font-style: normal;
 font-weight: 400;
@@ -552,23 +555,30 @@ line-height: 40px;
 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 font-feature-settings: 'ss03' on;
 
 color: #FFFFFF;
 }
 .hello {
-  width: 1423px;
+  width: 1226px;
   height: 217px;
   background-image: url('../images/footerbig.svg');
 }
 .school {
-  width: 427px;
+  width: 626px;
   height: 217px;
   background: #E8D41A;
 }
 .hselogo {
   padding: 57px;
   width: 310px;
+  background-size: cover;
+}
+.adc {
+  margin-left: 51px;
+  margin-bottom: 45px;
+  width: 130px;
   background-size: cover;
 }
 }

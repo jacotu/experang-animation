@@ -52,7 +52,7 @@ h2 {
     transform: scale(1);
   }
 }
-.section1, .section3, .section5 {
+.section1, .section3 {
   display: flex;
   gap: 25px;
   margin: 25px;
@@ -110,7 +110,7 @@ h2 {
 }
 /* секция 2 */
 .runscreen1 {
-  width: 1394px;
+  width: 1391px;
   height: 227px;
   background: #E8D41A;
   margin: 25px;
@@ -132,7 +132,7 @@ h2 {
   gap: 25px;
 }
 .holo {
-  width: 482px;
+  width: 478px;
   height: 549px;
   background: #FBB404;
 }
@@ -162,7 +162,7 @@ h2 {
   100% {transform: rotate(3deg);}
 }
 .vkusnokrutoveselo {
-  width: 766px;
+  width: 762px;
   height: 370px;
   background: #33A4CB;
   margin-top: 25px;
@@ -434,7 +434,7 @@ input[name="p"] {
 }
 /* секция 4 */
 .animation3 {
-  width: 583px;
+  width: 581px;
   height: 580px;
   background: #F16A28;
 }
@@ -449,7 +449,7 @@ input[name="p"] {
   100% {margin-top: 0; margin-left: 0px;}
 }
 .taxi {
-  width: 583px;
+  width: 581px;
   height: 299px;
   background: #E8D41A;
   margin-top: 25px;
@@ -512,8 +512,18 @@ input[name="p"] {
   }
 }
 /* секция 5 */
+.section5 {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+  margin-left: 23px;
+}
 .hi {
-margin: 45px;
+margin-left: 5px;
+margin-top: 25px;
+}
+.hi a {
+margin: 25px;
 font-family: 'Gramatika';
 font-style: normal;
 font-weight: 400;
@@ -522,21 +532,32 @@ line-height: 125%;
 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 font-feature-settings: 'ss03' on;
 
 color: #FFFFFF;
 }
+.hi a:hover {
+color: #E8D41A;
+}
 .hello {
-  width: 1063px;
+  width: 881px;
   height: 171px;
   background-image: url('../images/footer.svg');
 }
 .school {
-  width: 312px;
+  width: 489px;
   height: 171px;
   background: #E8D41A;
 }
+.hselogo a:hover {
+fill: #FFFFFF;
+}
 .hselogo {
   padding: 45px;
+}
+.adc {
+  margin-left: 51px;
+  margin-bottom: 35px;
 }
 }

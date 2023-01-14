@@ -4,7 +4,7 @@ body {
   width: 360px;
   margin: 0 auto;
   background: #EAEAEA;
-  height: 2332px;
+  height: 2491px;
 }
 h1 {
   font-family: 'Gramatika';
@@ -51,7 +51,7 @@ h2 {
     transform: scale(1);
   }
 }
-.section1, .section5 {
+.section1 {
   display: flex;
   gap: 6px;
   margin: 6px;
@@ -533,32 +533,46 @@ input[name="p"] {
 }
 /* секция 5 */
 .hi {
-margin: 16px;
-font-family: 'Gramatika';
-font-style: normal;
-font-weight: 400;
-font-size: 8px;
-line-height: 10px;
+  margin-top: 22px;
+  text-align: center;
+}
+.hi a{
+  font-family: 'Gramatika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
 
-letter-spacing: 0.03em;
-text-transform: uppercase;
-font-feature-settings: 'ss03' on;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-feature-settings: 'ss03' on;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 .hello {
-  width: 306px;
-  height: 53px;
-  background-image: url('../images/footermini-2.svg');
+  margin: 6px;
+  width: 348px;
+  height: 103px;
+  background-image: url('../images/footermini-3.svg');
 }
 .school {
-  width: 89px;
-  height: 53px;
+  margin: 6px;
+  width: 348px;
+  height: 103px;
   background: #E8D41A;
 }
 .hselogo {
-  padding: 17px;
-  width: 60px;
+  padding: 28px;
+  width: 150px;
+  background-size: cover;
+}
+.adc {
+  margin-left: 55px;
+  margin-bottom: 22px;
+  width: 63px;
   background-size: cover;
 }
 }

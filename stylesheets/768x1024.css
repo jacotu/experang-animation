@@ -356,7 +356,7 @@ input[name="r"] {
 .light3 {
   transform: scale(0.6);
   height: 203px;
-  bottom: 45px;
+  bottom: 30px;
   position: relative;
   animation: light3running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
@@ -367,7 +367,7 @@ input[name="r"] {
 .light4 {
   transform: scale(0.6);
   height: 203px;
-  bottom: 148px;
+  bottom: 99px;
   position: relative;
   animation: light4running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
@@ -404,7 +404,7 @@ input[name="r"] {
 }
 .navigation3 {
   display: flex;
-  margin-top: -218px;
+  margin-top: -179px;
   margin-left: 115px;
 }
 input[name="p"] {
@@ -528,7 +528,10 @@ input[name="p"] {
 }
 /* секция 5 */
 .hi {
-margin: 20px;
+margin-left: 20px;
+margin-top: 10px;
+}
+.hi a{
 font-family: 'Gramatika';
 font-style: normal;
 font-weight: 400;
@@ -537,23 +540,30 @@ line-height: 25px;
 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 font-feature-settings: 'ss03' on;
 
 color: #FFFFFF;
 }
 .hello {
-  width: 566px;
+  width: 458px;
   height: 94px;
   background-image: url('../images/footermini-1.svg');
 }
 .school {
-  width: 166px;
+  width: 272px;
   height: 94px;
   background: #E8D41A;
 }
 .hselogo {
   padding: 27px;
   width: 120px;
+  background-size: cover;
+}
+.adc {
+  margin-left: 25px;
+  margin-bottom: 17px;
+  width: 63px;
   background-size: cover;
 }
 }

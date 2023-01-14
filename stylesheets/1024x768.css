@@ -355,7 +355,7 @@ input[name="r"] {
   transform: scale(0.7);
   height: 203px;
   position: relative;
-  animation: light3running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
+  animation: light3running 2s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
 @keyframes light3running {
   0% {right: -656px;}
@@ -364,9 +364,9 @@ input[name="r"] {
 .light4 {
   transform: scale(0.7);
   height: 203px;
-  bottom: 75px;
+  bottom: 20px;
   position: relative;
-  animation: light4running 3s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
+  animation: light4running 2s cubic-bezier(0.86,-0.01, 0.05, 0.99) infinite alternate;
 }
 @keyframes light4running {
   0% {left: -656px;}
@@ -401,7 +401,7 @@ input[name="r"] {
 }
 .navigation3 {
   display: flex;
-  margin-top: -118px;
+  margin-top: -77px;
   margin-left: 168px;
 }
 input[name="p"] {
@@ -525,7 +525,10 @@ input[name="p"] {
 }
 /* секция 5 */
 .hi {
-margin: 30px;
+margin-left: 25px;
+margin-top: 20px;
+}
+.hi a {
 font-family: 'Gramatika';
 font-style: normal;
 font-weight: 400;
@@ -534,23 +537,30 @@ line-height: 30px;
 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 font-feature-settings: 'ss03' on;
 
 color: #FFFFFF;
 }
 .hello {
-  width: 755px;
+  width: 628px;
   height: 129px;
   background-image: url('../images/footermini.svg');
 }
 .school {
-  width: 221px;
+  width: 345px;
   height: 129px;
   background: #E8D41A;
 }
 .hselogo {
   padding: 36px;
   width: 160px;
+  background-size: cover;
+}
+.adc {
+  margin-left: 31px;
+  margin-bottom: 26px;
+  width: 77px;
   background-size: cover;
 }
 }
